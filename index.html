@@ -126,7 +126,7 @@
                                         Before that, I have worked with
                                         <a href="http://web.eecs.umich.edu/~honglak/">Prof. Honglak Lee</a>,
                                         <a href="http://www.ytzhang.net/">Dr. Yuting Zhang</a> and
-                                        <a href="https://sites.google.com/a/umich.edu/rubenevillegas/home">Ruben Villegas</a>
+                                        <a href="https://sites.google.com/a/umich.edu/rubenevillegas/home">Dr. Ruben Villegas</a>
                                         during my masters at University of Michigan, Ann Arbor, and
                                         <a href="http://mypage.zju.edu.cn/en/gongxj">Prof. Xiaojin Gong</a> during my
                                         undergrad at Zhejiang University.
@@ -176,6 +176,11 @@
                                         <font size="5"><strong>Industry</strong></font>
                                     </p>
                                     <div class="col-sm-4">
+                                        <img src="about/nec.png" class="school-fig-long">
+                                        <p>May. 2019 - Aug. 2019</p>
+                                    </div>
+
+                                    <div class="col-sm-4">
                                         <img src="about/adobe.png" class="school-fig">
                                         <p>May. 2018 - Aug. 2018</p>
                                     </div>
@@ -183,7 +188,7 @@
                                 </td>
 
                                 <td width="40%">
-                                    <img width="350" src="./about/selfie.png">
+                                    <img width="350" src="./about/selfie.png" id="selfie" onmouseover="selfieMouseOver()" onmouseout="selfieMouseOut()">
                                 </td>
                             </tr>
                         </tbody>
@@ -409,7 +414,7 @@
                         <div class="col-sm-8 col-sm-offset-0">
                             <h4 class="paper-title text-left">Anonymous</h4>
                             <p class="text-left">
-                                <strong>Yuliang Zou</strong>, Jimei Yang, Jianming Zhang, Duygu Ceylan, Federico Perazzi, Jia-Bin Huang
+                                <strong>Yuliang Zou</strong>, Jimei Yang, Duygu Ceylan, Jianming Zhang, Federico Perazzi, Jia-Bin Huang
                             </p>
                         </div>
                     </div>
@@ -863,6 +868,16 @@
 
         ga('create', 'UA-100823544-1', 'auto');
         ga('send', 'pageview');
+    </script>
+
+    <script>
+        function selfieMouseOver() {
+            document.getElementById("selfie").src = "./about/selfie-style.jpg"
+        }
+
+        function selfieMouseOut() {
+            document.getElementById("selfie").src = "./about/selfie.png"
+        }
     </script>
 
 </body>

@@ -88,6 +88,11 @@ of those sections to manage the look and feel of the site. */
     width: 110px;
 }
 
+.school-fig-long {
+    height: 110px;
+    width: 220px;
+}
+
 .paper-fig {
     height: 128px;
     width: 256px;
