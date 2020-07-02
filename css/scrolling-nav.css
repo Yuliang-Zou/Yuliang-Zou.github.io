@@ -98,6 +98,11 @@ of those sections to manage the look and feel of the site. */
     width: 256px;
 }
 
+.paper-fig-long {
+    height: 80px;
+    width: 256px;
+}
+
 .paper {
     margin-bottom: 30px;
 }
