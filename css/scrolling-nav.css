@@ -78,7 +78,8 @@ of those sections to manage the look and feel of the site. */
     /*height: 100%;*/
     padding-top: 30px;
     text-align: center;
-    background: #fff;
+    /*background: #fff;*/
+    background: #eee;
     padding-bottom: 30px;
 }
 
@@ -99,8 +100,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .paper-fig-long {
-    height: 80px;
-    width: 256px;
+    height: 128px;
+    width: 384px;
 }
 
 .paper {
@@ -110,4 +111,10 @@ of those sections to manage the look and feel of the site. */
 .small-logo {
     height: 30px;
     width: 30px;
+}
+
+img.responsive-img,
+video.responsive-video {
+  max-width: 100%;
+  height: auto;
 }
