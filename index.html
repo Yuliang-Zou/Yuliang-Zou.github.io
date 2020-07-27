@@ -118,9 +118,6 @@
                                         <font size="3">
                                         I am a third-year Ph.D. student in Computer Engineering at Virginia Tech. I work with
                                         <a href="https://filebox.ece.vt.edu/~jbhuang/index.html">Prof. Jia-Bin Huang</a>.
-                                        <!-- My recent research interests focus on deep generative modeling and video analysis. -->
-<!--                                        For the application side, I am interested in research projects with visually appealing outputs;-->
-<!--                                        for the methodology side, I would like to explore <b>deep generative modeling</b> and <b>self-supervised learning</b>.-->
                                         My recent research interest lies in designing label-efficient and/or robust visual understanding methods.
                                         I also enjoy working on interesting projects that generate visually appealing outputs (e.g., deep generative models, graphics, 3D vision, etc.)
                                         
@@ -160,6 +157,7 @@
 
                                 <td width="40%">
                                     <img width="350" class="responsive-img" src="./about/selfie.png" id="selfie" onmouseover="selfieMouseOver()" onmouseout="selfieMouseOut()">
+                                    <p id="selfie-text">Me in 2016</p>
                                 </td>
                             </tr>
                         </tbody>
@@ -840,11 +838,13 @@
 
     <script>
         function selfieMouseOver() {
-            document.getElementById("selfie").src = "./about/selfie-style.jpg"
+            document.getElementById("selfie").src = "./about/selfie_2020.png"
+            document.getElementById("selfie-text").innerHTML = "Me in 2020"
         }
 
         function selfieMouseOut() {
             document.getElementById("selfie").src = "./about/selfie.png"
+            document.getElementById("selfie-text").innerHTML = "Me in 2016"
         }
     </script>
 
